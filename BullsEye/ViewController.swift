@@ -43,10 +43,10 @@ class ViewController: UIViewController {
         }
 
         let alert = UIAlertController(title: title, message: "You pressed: \(currentValue)\nScored \(points) points", preferredStyle: .alert)
-        let action = UIAlertAction(title: "Ok", style: .default, handler: {
+        let action = UIAlertAction(title: "Ok", style: .default) {
             action in
             self.startNewRound()
-        })
+        }
         alert.addAction(action)
         present(alert, animated: true)
     }
