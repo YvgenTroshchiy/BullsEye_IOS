@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E04F03654A9F093F22EEFBD /* AboutAuthorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E04F42C9C473B020A0567C2 /* AboutAuthorViewController.swift */; };
 		70414AB82311636900A5827A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70414AB72311636900A5827A /* AppDelegate.swift */; };
 		70414ABA2311636900A5827A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70414AB92311636900A5827A /* ViewController.swift */; };
 		70414ABD2311636900A5827A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70414ABB2311636900A5827A /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E04F42C9C473B020A0567C2 /* AboutAuthorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutAuthorViewController.swift; sourceTree = "<group>"; };
 		70414AB42311636900A5827A /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70414AB72311636900A5827A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70414AB92311636900A5827A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				7085191923146AE400FDE9FE /* AboutViewController.swift */,
 				70414ABE2311636A00A5827A /* Assets.xcassets */,
 				70414AC32311636A00A5827A /* Info.plist */,
+				6E04F42C9C473B020A0567C2 /* AboutAuthorViewController.swift */,
 			);
 			path = BullsEye;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 				7085191A23146AE400FDE9FE /* AboutViewController.swift in Sources */,
 				70414ABA2311636900A5827A /* ViewController.swift in Sources */,
 				70414AB82311636900A5827A /* AppDelegate.swift in Sources */,
+				6E04F03654A9F093F22EEFBD /* AboutAuthorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
