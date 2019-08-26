@@ -52,7 +52,6 @@ class ViewController: UIViewController {
     }
 
     @IBAction func sliderMoved(_ slider: UISlider) {
-        print("slider: \(slider.value.rounded())")
         currentValue = Int(slider.value.rounded())
     }
 

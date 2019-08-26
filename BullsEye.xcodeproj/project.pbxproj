@@ -11,6 +11,7 @@
 		70414ABA2311636900A5827A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70414AB92311636900A5827A /* ViewController.swift */; };
 		70414ABD2311636900A5827A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70414ABB2311636900A5827A /* Main.storyboard */; };
 		70414ABF2311636A00A5827A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70414ABE2311636A00A5827A /* Assets.xcassets */; };
+		7085191A23146AE400FDE9FE /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7085191923146AE400FDE9FE /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		70414ABC2311636900A5827A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70414ABE2311636A00A5827A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70414AC32311636A00A5827A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7085191923146AE400FDE9FE /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				70414AB72311636900A5827A /* AppDelegate.swift */,
 				70414AB92311636900A5827A /* ViewController.swift */,
 				70414ABB2311636900A5827A /* Main.storyboard */,
+				7085191923146AE400FDE9FE /* AboutViewController.swift */,
 				70414ABE2311636A00A5827A /* Assets.xcassets */,
 				70414AC32311636A00A5827A /* Info.plist */,
 			);
@@ -131,6 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7085191A23146AE400FDE9FE /* AboutViewController.swift in Sources */,
 				70414ABA2311636900A5827A /* ViewController.swift in Sources */,
 				70414AB82311636900A5827A /* AppDelegate.swift in Sources */,
 			);
