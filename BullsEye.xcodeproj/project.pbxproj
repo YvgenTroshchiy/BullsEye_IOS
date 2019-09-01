@@ -12,7 +12,9 @@
 		70414ABA2311636900A5827A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70414AB92311636900A5827A /* ViewController.swift */; };
 		70414ABD2311636900A5827A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70414ABB2311636900A5827A /* Main.storyboard */; };
 		70414ABF2311636A00A5827A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70414ABE2311636A00A5827A /* Assets.xcassets */; };
+		704CE30B2317FBBA00354F0B /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 704CE30A2317FBBA00354F0B /* BullsEye.html */; };
 		7085191A23146AE400FDE9FE /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7085191923146AE400FDE9FE /* AboutViewController.swift */; };
+		70FBDD7A231C599C00A51976 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70FBDD79231C599C00A51976 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +25,9 @@
 		70414ABC2311636900A5827A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70414ABE2311636A00A5827A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70414AC32311636A00A5827A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		704CE30A2317FBBA00354F0B /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 		7085191923146AE400FDE9FE /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		70FBDD79231C599C00A51976 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70FBDD7A231C599C00A51976 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,7 @@
 			children = (
 				70414AB62311636900A5827A /* BullsEye */,
 				70414AB52311636900A5827A /* Products */,
+				70FBDD78231C599C00A51976 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +69,17 @@
 				70414ABE2311636A00A5827A /* Assets.xcassets */,
 				70414AC32311636A00A5827A /* Info.plist */,
 				6E04F42C9C473B020A0567C2 /* AboutAuthorViewController.swift */,
+				704CE30A2317FBBA00354F0B /* BullsEye.html */,
 			);
 			path = BullsEye;
+			sourceTree = "<group>";
+		};
+		70FBDD78231C599C00A51976 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70FBDD79231C599C00A51976 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70414ABF2311636A00A5827A /* Assets.xcassets in Resources */,
+				704CE30B2317FBBA00354F0B /* BullsEye.html in Resources */,
 				70414ABD2311636900A5827A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
